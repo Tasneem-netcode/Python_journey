@@ -1,0 +1,1 @@
+hello i have used with statement here to read file
