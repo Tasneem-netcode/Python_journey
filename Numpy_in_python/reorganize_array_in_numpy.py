@@ -10,12 +10,13 @@ print(after)
 v1 = np.array([1,2,3,4])
 v2 = np.array([6,7,8,9])
 
-v = np.vstack([v1 , v2 , v1 , v2 ])
+v = np.vstack([v1 , v2 , v2, v1 ])
 print(v)
 
 #horizontal stack vector: Horizontal Stack — it stacks arrays side by side, column-wise
-h1 = np.array([1,2,3])
-h2 = np.array([4,5,6])
+h1 = np.array([[1,2,3]])
+h2 = np.array([[4,5,6]])
 
 result = np.hstack((h1 , h2))
+print((result.ndim))
 print(result)
